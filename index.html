@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="discription" content="Calculadora simples">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Calculadora</h1>
+        </div>
+        <div class="subtitulo">
+            <h2>Calcule Aqui</h2>
+        </div>
+    </header> 
+    <main>
+        <div class="calculadora">
+            <input class="visor" type="number">
+            <div class="botoes">
+                <div class="botoesumaotres">
+                    <div class="botaoum"><button onclick="clickum('1')">1</button></div>
+                    <div class="botaodois"><button onclick="clickdois('2')">2</button></div>
+                    <div class="botaotres"><button onclick="clicktres('3')">3</button></div>
+                </div>
+            <div class="botoesquatroaoseis">
+                <div class="botaoquatro"><button onclick="clickquatro('4')">4</button></div>
+                <div class="botaocinco"><button onclick="clickcinco('5')">5</button></div>
+                <div class="botaoseis"><button onclick="clickseis('6')">6</button></div>
+            </div>
+                <div class="botoesseteaonove">
+                <div class="botaosete"><button onclick="clicksete('7')">7</button></div>
+                <div class="botaooito"><button onclick="clickoito('8')">8</button></div>
+                <div class="botaonove"><button onclick="clicknove('9')">9</button></div>
+            </div>
+            <div class="botaozeroc">
+                <div class="botaozero"><button onclick="clickzero('0')">0</button></div>
+            </div>
+            <div class="botoesoperacionais">
+                <div class="botaomais"><button onclick="clickadicao('+')">+</button></div>
+                <div class="botaomenos"><button onclick="clicksubtracao('-')">-</button></div>
+                <div class="botaomultiplicacao"><button onclick="clickmultiplicacao('x')">x</button></div>
+                <div class="botaodivisao"><button onclick="clickdivisao('%')">%</button></div>
+                <div class="botaoigual"><button onclick="clickdivisao('=')">=</button></div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
