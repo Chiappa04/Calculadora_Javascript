@@ -17,3 +17,5 @@ let botaoMultiplicacao = document.querySelector(".botaomultiplicacao").innerText
 let botaoDivisao = document.querySelector(".botaodivisao").innerText
 let botaoIgual = document.querySelector(".botaoigual").innerText
 let visor = document.querySelector(".visor").innerText
+
+//Oi
