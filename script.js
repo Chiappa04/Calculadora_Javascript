@@ -1,0 +1,19 @@
+//Variáveis dos números
+let botaoUm = document.querySelector(".botaoum").innerText
+let botaoDois = document.querySelector(".botaodois").innerText
+let botaoTres = document.querySelector(".botaotres").innerText
+let botaoQuatro = document.querySelector(".botaoquatro").innerText
+let botaoCinco = document.querySelector(".botaocinco").innerText
+let botaoSeis = document.querySelector(".botaoseis").innerText
+let botaoSete = document.querySelector(".botaosete").innerText
+let botaoOito = document.querySelector(".botaooito").innerText
+let botaoNove = document.querySelector(".botaonove").innerText
+let botaoZero = document.querySelector(".botaozero").innerText
+
+//Variáveis operações
+let botaoAdicao = document.querySelector(".botaomais").innerText
+let botaoSubtracao = document.querySelector(".botaomenos").innerText
+let botaoMultiplicacao = document.querySelector(".botaomultiplicacao").innerText
+let botaoDivisao = document.querySelector(".botaodivisao").innerText
+let botaoIgual = document.querySelector(".botaoigual").innerText
+let visor = document.querySelector(".visor").innerText

@@ -28,7 +28,8 @@
     width: 490px;
     height: 150px;
     border-radius: 15px; 
-
+    font-size: 2rem;
+    direction: rtl;
     justify-content: center;
 
     border: 5px solid #ff0000;
