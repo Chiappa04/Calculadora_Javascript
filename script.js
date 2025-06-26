@@ -16,6 +16,42 @@ let botaoSubtracao = document.querySelector(".botaomenos").innerText
 let botaoMultiplicacao = document.querySelector(".botaomultiplicacao").innerText
 let botaoDivisao = document.querySelector(".botaodivisao").innerText
 let botaoIgual = document.querySelector(".botaoigual").innerText
-let visor = document.querySelector(".visor").innerText
+let visor = document.querySelector(".visor")
 
-//Oi 
+let expressao = '';
+
+function clickClear() {
+    expressao = '';
+    atualizaVisor()
+}
+
+function atualizaVisor() {
+    visor.value = expressao || "0"
+}
+
+document.querySelector(".botaoigual").addEventListener("click", () => {
+    expressao = calcular(expressao)
+})
+
+function addClick(seletor, valorbotao, ehOperador = false) {
+
+}
+
+addClick(".botaoum", botaoUm)
+addClick(".botaodois", botaoDois)
+addClick(".botaotres", botaoTres)
+addClick(".botaoquatro", botaoQuatro)
+addClick(".botaocinco", botaoCinco)
+addClick(".botaoseis", botaoSeis)
+addClick(".botaosete", botaoSete)
+addClick(".botaooito", botaoOito)
+addClick(".botaonove", botaoNove)
+addClick(".botaozero", botaoZero)
+addClick(".botaomais", botaoAdicao)
+addClick(".botaomenos", botaoSubtracao)
+addClick(".botaomultiplicacao", botaoMultiplicacao)
+addClick(".botaodivisao", botaoDivisao)
+
+function calcular(expressao) {
+
+}
